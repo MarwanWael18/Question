@@ -1,0 +1,737 @@
+@media (min-width:100px ) and (max-width : 499px) {
+
+    .header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 30px;
+    }
+    
+    header .menu {
+        display: block;
+    }
+    
+    .navbarn {
+        display: none;
+    }
+    .navbarn.active{
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        width: 50%;
+        height: 200px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #09001d;
+        border-radius: 20px;
+        gap: 20px;
+    }
+
+    .navbarn a {
+        margin-left: 0;
+    }
+    .navbarn .sign {
+        border: 0;
+        background: transparent;
+        margin-left: 0;
+    }
+    
+    
+    main{
+        min-height: 100vh;
+    } 
+    
+    
+    .home {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    
+    .home-content {
+        max-width: 600px;
+    }
+    
+    .home-content h1 {
+        font-size: 78px;
+    }
+    
+    .home-content p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .home-content .grade-button {
+        width: 190px;
+        height: 55px;
+        font-size: 18px;
+    }
+    
+    
+    .popup-info {
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        padding: 10px 7px;
+    }
+    
+    .popup-info .header-info h2{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .popup-info .close img {
+        width: 30px;
+    }
+    
+    
+    .popup-info .btn-group {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        gap: 25px;
+    }
+    .popup-info .btn-group a{
+        width: 80%;
+        height: 50px;
+    }
+    
+    
+    
+    
+    
+    .header {
+        z-index: 100;
+    
+    }
+    
+    .logo{
+        font-size: 32px;
+
+    }
+    
+    
+    
+    .navbar {
+        bottom: 0px;
+        right: 0;
+        width: 100%;
+        height: 5vh;
+        flex-direction: row;
+        gap: 30px;  
+        border-radius: 0;
+    }
+    
+    
+    
+    main{
+        height: 100vh;
+    } 
+    
+    
+    
+    
+    
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+
+    
+    
+    .subjects {
+        grid-template-columns: repeat(1 , 1fr);
+        padding-left: 74px;
+        display: none;
+        pointer-events: none;
+    }
+    
+    
+    .subjects.active{
+        display: grid;
+        pointer-events: auto;
+    }
+    
+    
+    
+    .subjects .card {
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 100px;
+        margin-left: 14px;
+        margin-top: 15px;
+        opacity: 0;
+    }
+    
+    
+
+    
+    .subjects h3 {
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .subjects .btn {
+        padding: 10px 25px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    
+    
+    .cardsgame{
+        width: 100%;
+        grid-template-columns: repeat(1 , 1fr);
+        padding-top: 0;
+        padding-left: 70px;
+        
+    }
+    
+    .cardsgame .card {
+        width: 90%;
+        height: 50vh;
+        height: max-content;
+        border-radius: 20px;
+        margin-bottom: 30;
+        margin-left: 14px;
+        margin-top: 115px;
+    }
+    
+    
+    
+    .cardsgame .card h3{
+        margin-top: 15px;
+        font-size: 23px;
+    }
+    
+    .cardsgame .card .btn{
+        padding: 10px 25px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+    .card img {
+        width: 200px;
+        height: 120px;
+        border-radius: 15;
+    
+    }
+
+}
+
+
+
+@media (min-width:500px) and (max-width: 656px) {
+    
+    .header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 30px;
+    }
+    
+    header .menu {
+        display: block;
+    }
+    
+    .navbarn {
+        display: none;
+    }
+    .navbarn.active{
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        width: 50%;
+        height: 200px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #09001d;
+        border-radius: 20px;
+    }
+
+    .navbarn a {
+        margin-left: 0;
+    }
+    .navbarn .sign {
+        border: 0;
+        background: transparent;
+        margin-left: 0;
+    }
+    
+    .navbarn a {
+        margin-left: 0;
+    }
+    
+    main{
+        min-height: 100vh;
+    } 
+    
+    
+    .home {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    
+    .home-content {
+        max-width: 600px;
+    }
+    
+    .home-content h1 {
+        font-size: 78px;
+    }
+    
+    .home-content p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .home-content .grade-button {
+        width: 190px;
+        height: 55px;
+        font-size: 18px;
+    }
+    
+    
+    .popup-info {
+        top: 50%;
+        left: 50%;
+        width: 90%;
+        padding: 10px 10px;
+    }
+    
+    .popup-info .header-info h2{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .popup-info .close img {
+        width: 50px;
+    }
+    
+    
+    .popup-info .btn-group {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        gap: 25px;
+    }
+    .popup-info .btn-group a{
+        width: 80%;
+        height: 50px;
+    }
+    
+    
+
+
+    header {
+        z-index: 100;
+    }
+    
+    .logo{
+        font-size: 36px;
+        opacity: 0;
+        filter: blur(20px);
+        animation: logoShow 1s linear 1 forwards;
+    }
+    @keyframes logoShow {
+        to {
+            opacity: 1;
+            filter: blur(0px);
+        }
+    }
+    
+    
+    .navbar {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        flex-direction: row;
+        gap: 35px;  
+        border-radius: 0;
+    }
+    
+    
+    
+    main{
+        height: 100vh;
+    } 
+    
+    
+    
+    
+    
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    
+    
+    .subjects {
+        grid-template-columns: repeat(1 , 1fr);
+        padding-left: 74px;
+        display: none;
+        pointer-events: none;
+    }
+    
+    
+    .subjects.active{
+        display: grid;
+        pointer-events: auto;
+    }
+    
+    
+    
+    .card {
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 100px;
+        margin-left: 14px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    
+
+    
+    .card h3 {
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .card .btn {
+        padding: 10px 25px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    
+    
+    .cardsgame{
+        width: 100%;
+        grid-template-columns: repeat(1 , 1fr);
+        padding-top: 0;
+        padding-left: 70px;
+        
+    }
+    .cardsgame .card{
+        margin-top: 115px;
+        
+    }
+    
+    
+    
+    
+    .card img {
+        width: 200px;
+        height: 120px;
+        border-radius: 15;
+    
+    }
+}
+
+
+@media (min-width:656px) and (max-width: 1000px) {
+    
+    header {
+        z-index: 100;
+    
+    }
+    
+    header .menu {
+        display: block;
+    }
+    
+    .navbarn {
+        display: none;
+    }
+    .navbarn.active{
+        position: absolute;
+        right: 100px;
+        top: 70px;
+        width: 30%;
+        height: 200px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: #09001d;
+        border-radius: 20px;
+    }
+
+    .navbarn a {
+        margin-left: 0;
+    }
+    .navbarn .sign {
+        border: 0;
+        background: transparent;
+        margin-left: 0;
+    }
+
+    .logo{
+        font-size: 36px;
+        opacity: 0;
+        filter: blur(20px);
+        animation: logoShow 1s linear 1 forwards;
+    }
+    @keyframes logoShow {
+        to {
+            opacity: 1;
+            filter: blur(0px);
+        }
+    }
+    
+    
+    .navbar {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        flex-direction: row;
+        gap: 100px;  
+        border-radius: 0;
+    }
+    
+    
+    
+    main{
+        height: 100vh;
+    } 
+    
+    
+    
+    
+    
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    
+    
+    .subjects {
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 35px;
+        padding-left: 74px;
+        display: none;
+        pointer-events: none;
+    }
+    
+    
+    .subjects.active{
+        display: grid;
+        pointer-events: auto;
+    }
+    
+    
+    
+    .card {
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 30px;
+        margin-left: 14px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    
+
+    
+    .card h3 {
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .card .btn {
+        padding: 10px 25px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    
+    
+    .cardsgame{
+        width: 100%;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 35px;
+        padding-top: 0;
+        padding-left: 70px;
+        
+    }
+    .cardsgame .card{
+        margin-top: 115px;
+        
+    }
+    
+    
+    
+    
+    .card img {
+        width: 200px;
+        height: 120px;
+        border-radius: 15;
+    
+    }
+}
+@media (min-width:1001px) and (max-width: 1160px) {
+    header {
+        margin-left: -55px;
+        z-index: 100;
+
+    }
+    
+    
+    header .menu {
+        display: block;
+        left: 100px;
+    } 
+    
+    .navbarn {
+        display: none;
+    }
+    .navbarn.active{
+        position: absolute;
+        right: 30px;
+        top: 70px;
+        width: 30%;
+        height: 200px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #09001d;
+        border-radius: 20px;
+        gap: 30px;
+    }
+
+    .navbarn a {
+        margin-left: 0;
+    }
+    .navbarn .sign {
+        border: 0;
+        background: transparent;
+        margin-left: 0;
+    }
+
+    .logo{
+        font-size: 36px;
+        opacity: 0;
+        filter: blur(20px);
+        animation: logoShow 1s linear 1 forwards;
+    }
+    @keyframes logoShow {
+        to {
+            opacity: 1;
+            filter: blur(0px);
+        }
+    }
+    
+    
+    .navbar {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        gap: 170px;  
+        border-radius: 0;
+        flex-direction: row;
+    }
+    
+    
+    
+    main{
+        height: 100vh;
+    } 
+    
+    
+    
+    
+    
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    
+    
+    .subjects {
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 35px;
+        padding-left: 74px;
+        display: none;
+        pointer-events: none;
+    }
+    
+    
+    .subjects.active{
+        display: grid;
+        pointer-events: auto;
+    }
+    
+    
+    
+    .card {
+        width: 90%;
+        height: 63vh;
+        padding-top: 45px;
+        margin-bottom: 30px;
+        margin-left: 14px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    
+
+    
+    .card h3 {
+        text-align: center;
+        font-size: 36px;
+    }
+    
+    .card .btn {
+        padding: 10px 25px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    
+    
+    
+    .cardsgame{
+        width: 100%;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 35px;
+        padding-top: 0;
+        padding-left: 70px;
+        
+    }
+    .cardsgame .card{
+        margin-top: 115px;
+        
+    }
+    
+    
+    
+    
+    .card img {
+        width: 350px;
+        height: 180px;
+        border-radius: 15;
+    
+    }
+}
